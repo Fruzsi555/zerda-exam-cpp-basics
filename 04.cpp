@@ -11,7 +11,7 @@ int numbers_divisors(int number) {
   for (int i = 1; i <= number; i++) {
     if (number % i == 0) {
       counter++;
-  }
+    }
   }
   return counter;
 }
