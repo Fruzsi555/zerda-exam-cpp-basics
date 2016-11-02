@@ -11,9 +11,9 @@ bool bigger_or_equal(int* array, int length, int num) {
   bool result = false;
   for (int i = 0; i < length; i++) {
     if (array[i] >= num) {
-	result = true;
-	break;
-	}
+      result = true;
+      break;
+  }
   }
   return result;
 }

@@ -9,7 +9,7 @@ using namespace std;
 int numbers_divisors(int number) {
   int counter = 0;
   for (int i = 1; i <= number; i++) {
-	if (number % i == 0) {
+    if (number % i == 0) {
 	  counter++;
 	}
   }

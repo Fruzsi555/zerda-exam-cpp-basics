@@ -21,7 +21,7 @@ using namespace std;
 
 void multiplication_table(int num) {
   for (int i = 1; i <= 10; i++) {
-	cout << i << " * " << num << " = " << i * num << endl;
+    cout << i << " * " << num << " = " << i * num << endl;
   }
 }
 
